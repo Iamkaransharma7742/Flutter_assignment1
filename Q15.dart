@@ -33,7 +33,7 @@ void main()
   {
     if(b>d)
     {
-      print("Second is largest....");
+      print("Second variable is largest....");
     }
     else
     {
@@ -43,6 +43,10 @@ void main()
   else if(c>d)
   {
     print("Third variable is largest....");
+  }
+  else if((a==b)&&(b==c)&&(c==d))
+  {
+    print("Both variable are equals....");
   }
   else
   {
